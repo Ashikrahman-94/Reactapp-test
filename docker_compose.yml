@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  react-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: customdocker-web:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./build:/usr/share/nginx/html
