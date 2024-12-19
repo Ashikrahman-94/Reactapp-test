@@ -7,8 +7,8 @@ pipeline {
         BUILD_NUMBER = "${env.BUILD_NUMBER}"  // Jenkins build number
         DOCKER_REPO_DEV = "ashikrahman24/customdocker-webdev:${BUILD_NUMBER}"  // Replace with build number
         DOCKER_REPO_PROD = "ashikrahman24/customdocker-webprod:${BUILD_NUMBER}"  // Replace with build number
-        SERVER_USER = 'ubuntu'  // Ensure this is the correct SSH user for your server
-        SERVER_ADDRESS = '3.129.65.55'  // Replace with your server's IP address
+        SERVER_USER = 'ec2-user'  // Ensure this is the correct SSH user for your server
+        SERVER_ADDRESS = '3.145.162.207'  // Replace with your server's IP address
     }
 
     stages {
