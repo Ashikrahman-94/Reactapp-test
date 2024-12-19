@@ -2,7 +2,7 @@
 IMAGE_NAME="customdocker-web"
 IMAGE_TAG="latest"
 SERVER_USER="ubuntu"
-SERVER_ADDRESS="3.143.217.144"
+SERVER_ADDRESS="3.129.12.96"
 CONTAINER_NAME="react-app"
 
 echo "Copying image to server..."

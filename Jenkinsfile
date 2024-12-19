@@ -8,7 +8,7 @@ pipeline {
         DOCKER_REPO_DEV = "ashikrahman24/customdocker-webdev:${BUILD_NUMBER}"  // Replace with build number
         DOCKER_REPO_PROD = "ashikrahman24/customdocker-webprod:${BUILD_NUMBER}"  // Replace with build number
         SERVER_USER = 'ubuntu'  // Ensure this is the correct SSH user for your server
-        SERVER_ADDRESS = '3.143.217.144'  // Replace with your server's IP address
+        SERVER_ADDRESS = '3.129.12.96'  // Replace with your server's IP address
     }
 
     stages {
